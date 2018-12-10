@@ -1,7 +1,7 @@
-
-body{
-    font-family:'Roboto';
+body {
+    font-family: 'Roboto';
 }
+
 .head {
     width: 100%;
     min-height: 5.9375rem;
@@ -9,66 +9,71 @@ body{
     background: #d33a2c;
     display: inline-block;
     padding: 20px 10px 10px 10px;
-    color:#FFF;
-    font-family:'Open sans';
+    color: #fff;
+    font-family: 'Open sans';
 }
+
 .logo {
-        height: 3.75em;
-        max-height: 100px;
-         width: 4em;
-        max-width: 100%;
-       float:left;
+    height: 3.75em;
+    max-height: 100px;
+    width: 4em;
+    max-width: 100%;
+    float: left;
 }
+
 .links {
-       
-     list-style: none;
-margin: 0;
-display: inline-block;
-text-align: center;
-width: 80%;
-display: -ms-flexbox;
-display: flex;
--ms-flex-pack: distribute;
-justify-content: space-around;
-height: 3.75rem;
-box-sizing: border-box;
-float: left;
-font-size: 1.5em;
-padding: 0px;
-    
+
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 3.75rem;
+    box-sizing: border-box;
+    float: left;
+    font-size: 1.5em;
+    padding: 0px;
+
 }
+
 .link {
-   display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-margin-bottom: -4px;
-padding: .5em 1.5em;
-border: 5px solid white;
-width: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -4px;
+    padding: .5em 1.5em;
+    border: 5px solid white;
+    width: 4em;
 
 }
+
 .search {
- box-sizing: border-box;
-height: auto;
-float: left;
-border-radius: 10px;
-border: 5px solid white;
+    box-sizing: border-box;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    border: 5px solid white;
 
-width: 8em;
-    
+    width: 8em;
+
 }
+
 .search-field {
-  box-sizing: border-box;
-height: 3em;
-border: 0;
-background: #d33a2c;
-border-radius: 5px;
-font-size: smaller;
-font-weight: bold;
-color: white;
-width: 6em;
-font-size:1.2em;
+    box-sizing: border-box;
+    height: 3em;
+    border: 0;
+    background: #d33a2c;
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+    width: 6em;
+    font-size: 1.2em;
 }
 
 .top-post {
@@ -83,7 +88,7 @@ font-size:1.2em;
 }
 
 .post-left,
-.post-right{
+.post-right {
     background-color: #bc3428;
 }
 
@@ -100,7 +105,7 @@ font-size:1.2em;
 }
 
 .dont-miss-abs {
-    position:absolute;
+    position: absolute;
     text-align: center;
     font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
     margin-top: 50px;
@@ -191,55 +196,61 @@ font-size:1.2em;
     font-size: 2rem;
     color: #fff;
 }
+
 .post2 {
     height: 33vh;
     width: 100vw;
     background-color: gray;
 }
+
 .post2-2,
-.post2-1{
-    border:10px solid lightgray;
-    width:50%;
-    height:33vh;
-    box-sizing:border-box;
-    float:left;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:2rem;
-    color:#fff;
-}
-.guides{
-    width:100vw;
-    height:90vh;
-}
-.guides1 {
-    box-sizing:border-box;
-    height:90vh;
-    width:33.3%;
-    background-color:gray;
-    border:10px solid lightgray;
-    float:left;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:#fff;
-    font-size:2rem;
-}
-.footer{
-    height:75vh;
-    width:100vw;
-    background: #d33a2c;
-    display:flex;
+.post2-1 {
+    border: 10px solid lightgray;
+    width: 50%;
+    height: 33vh;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
 }
-.text{
-   font-size: 1.2em;
-color: white;
-text-align: center;
-max-width: 80%;
-text-shadow: 0px 1px 1px aliceblue;
-letter-spacing:2px;
-line-height: 1.3em;
+
+.guides {
+    width: 100vw;
+    height: 90vh;
+}
+
+.guides1 {
+    box-sizing: border-box;
+    height: 90vh;
+    width: 33.3%;
+    background-color: gray;
+    border: 10px solid lightgray;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer {
+    height: 75vh;
+    width: 100vw;
+    background: #d33a2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    text-shadow: 0px 1px 1px aliceblue;
+    letter-spacing: 2px;
+    line-height: 1.3em;
 }
